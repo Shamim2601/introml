@@ -1,0 +1,1 @@
+dot -Tpng iris_tree.dot > output.png
