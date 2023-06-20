@@ -17,9 +17,9 @@ y2=model.predict(X_train)
 
 from sklearn.metrics import accuracy_score
 score =accuracy_score(y, y_test)
-print(score)
+# print(score)
 score2 =accuracy_score(y2, y_train)
-print(score2)
+# print(score2)
 
 import matplotlib.pyplot as plt
 color = ['black' if c == 0 else 'lightgrey' for c in y]
